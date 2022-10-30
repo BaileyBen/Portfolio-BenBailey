@@ -96,7 +96,7 @@ const ProjectsPage = () => {
                 </li>
             </ul>
             <p className='text-white pt-4 pb-3 text-xl pr-3'>The very portfolio you are currently exploring, a fun little project to display my work to you in a sleek and stylish way. Created in ReactJS with Tailwind CSS Framework.</p>
-            <a className='text-blue-600 text-2xl hover:text-blue-500 transform transition duration-500' href="https://github.com/BaileyBen/CRUD-Todo-Application#readme" rel="noreferrer">
+            <a className='text-blue-600 text-2xl hover:text-blue-500 transform transition duration-500' href="https://github.com/BaileyBen/Portfolio-BenBailey" rel="noreferrer">
                 View Code Here
             </a>
             </div>
