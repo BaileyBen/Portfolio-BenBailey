@@ -1,31 +1,28 @@
 import React from 'react'
-import selfie from './assets/me1.jpg'
 import { DiDatabase, DiCss3, DiHtml5, DiNodejsSmall, DiReact } from "react-icons/di";
-import {SiCsharp} from 'react-icons/si'
-import {FaNpm} from 'react-icons/fa'
+import { SiCsharp } from 'react-icons/si'
+import { FaNpm } from 'react-icons/fa'
+import { BsLinkedin } from 'react-icons/bs'
+import { TfiEmail } from 'react-icons/tfi'
 
-const AboutPage = () => {
+const ContactPage = () => {
   return (
     <div>
-
         <div className='max-w-[1000px] mx-auto px-20 py-20'>
-
-            <div className='flex justify-center'>
-        <img className='rounded-full transform transition duration-500 hover:rotate-6 hover:text-blue-600 w-[300px] h-[350px]' src={selfie} alt='' />
+        <div className='flex justify-center'>
+        <h1 className='text-white text-5xl font-bold pt-20'><span className='text-blue-600 text-5xl font-bold '>// </span>Contact Me</h1>
+        </div>
+        <div className='pl-20 ml-20 text-white pt-20 hover:text-blue-600 cursor-pointer transform transition duration-500 hover:scale-110'>
+            <div className='flex'>
+            <BsLinkedin size={60} />
+            <h1 className='pt-2 pl-3 text-3xl'>Linked In</h1>
             </div>
-
-            <div className='flex justify-center'>
-        <h1 className='text-white font-bold text-5xl  pt-5'><span className='text-blue-600 text-5xl '>// </span>About Me</h1>
+        </div>
+        <div className='pl-20 ml-20 text-white pt-20 hover:text-blue-600'>
+        <div className='flex '>
+            <TfiEmail size={60} />
+            <h1 className='pt-4 pl-3 text-3xl'>bensirbailey@hotmail.com</h1>
             </div>
-
-            <div>
-                <h1 className='text-white text-4xl pt-20 font-bold'><span className='text-blue-600'>-</span>Hobbies<span className='text-blue-600'>-</span></h1>
-                <p className='text-white pt-5 text-xl'>Some of my favorite activities include Programming, Camping, Off-Roading and hitting the Gym. </p>
-            </div>
-
-            <div>
-                <h1 className='text-white text-4xl pt-20 font-bold'><span className='text-blue-600'>-</span>Interests<span className='text-blue-600'>-</span></h1>
-                <p className='text-white pt-5 text-xl'>Love keeping up with the latest and greatest technology </p>
             </div>
         </div>
 
@@ -51,10 +48,9 @@ const AboutPage = () => {
             <FaNpm size={40} className='mt-20' />
             <p className=''>NPM</p>
             </div>
-        </div>
-
+            </div>
     </div>
   )
 }
 
-export default AboutPage
+export default ContactPage
