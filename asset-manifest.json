@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Portfolio-BenBailey/static/css/main.d18e613a.css",
+    "main.js": "/Portfolio-BenBailey/static/js/main.bb04148c.js",
+    "static/media/me1.jpg": "/Portfolio-BenBailey/static/media/me1.948e7d0c12ccd47a371c.jpg",
+    "index.html": "/Portfolio-BenBailey/index.html",
+    "main.d18e613a.css.map": "/Portfolio-BenBailey/static/css/main.d18e613a.css.map",
+    "main.bb04148c.js.map": "/Portfolio-BenBailey/static/js/main.bb04148c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d18e613a.css",
+    "static/js/main.bb04148c.js"
+  ]
+}
