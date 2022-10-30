@@ -16,6 +16,30 @@ const HomePage = () => {
             <p className='text-gray-200/50 font-bold text-2xl pl-20 ml-5 pt-5'><span className='text-blue-600 text-3xl'>// </span>
             Welcome to my Portfolio</p>
 
+            <div className='fixed top-0 left-0 w-[60px] h-screen bg-black/10 z-10 duration-300 invisible lg:visible hover:bg-black/30 transform transition duration-500 hover:scale-110 '>
+            <div className='text-white/50 hover:text-blue-600 pl-2 pt-10'>
+            <DiDatabase size={40} />
+              <p className='pl-2'>SQL</p>
+            <DiCss3 size={40} className='mt-20'/>
+            <p className='pl-2'>CSS</p>
+            
+            <SiCsharp size={40} className='mt-20'/>
+            <p className=''>CSharp</p>
+            
+            <DiHtml5 size={40} className='mt-20' />
+            <p className=''>HTML</p>
+
+            <DiNodejsSmall size={40} className='mt-20' />
+            <p className=''>JScript</p>
+
+            <DiReact size={40} className='mt-20' />
+            <p className=''>React</p>
+
+            <FaNpm size={40} className='mt-20' />
+            <p className=''>NPM</p>
+            </div>
+        </div>
+            
         </div>
     </div>
   )

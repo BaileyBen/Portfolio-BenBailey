@@ -11,8 +11,8 @@ function App() {
     <div>
       <Router>
       <Navbar />
-      <HomePage />
         <Routes>
+    <Route path='Portfolio-BenBailey/' element={<HomePage />} />
     <Route path='projects' element={<ProjectsPage />} />
     <Route path='about' element={<AboutPage />} />
     <Route path='skills' element={<SkillsPage />} />

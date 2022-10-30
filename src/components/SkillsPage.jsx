@@ -55,9 +55,9 @@ const SkillsPage = () => {
         <h1 className='text-white text-5xl font-bold pt-20 pb-10'><span className='text-blue-600 text-5xl font-bold '>// </span>Relative Skills</h1>
         </div>
 
-        <div>
-        <ul className='text-white text-2xl pl-20 list-disc pt-3 md:grid grid-cols-3 gap-20 lg:grid grid-cols-3 gap-20
+        <div className='text-white text-2xl pl-20 list-disc pt-3 md:grid grid-cols-3 gap-20 lg:grid grid-cols-3 gap-20
         bg-gray-300/5 rounded-lg mt-10 pb-5 shadow-xl hover:bg-black/30 transform transition duration-500 hover:scale-110'>
+        <ul className=''>
                 <li>
                 <p className='text-white pt-1 '>ASP.Net Web Api</p>
                 </li>
