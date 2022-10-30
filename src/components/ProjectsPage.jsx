@@ -87,6 +87,19 @@ const ProjectsPage = () => {
                 View Code Here
             </a>
             </div>
+
+            <div className='bg-gray-300/5 rounded-lg mt-10 pl-10 pb-5 shadow-xl hover:bg-black/30 transform transition duration-500 hover:scale-110'>
+            <h1 className='text-white text-3xl pt-10 font-bold'><span className='text-blue-600'>-</span>Portfolio<span className='text-blue-600'>-</span>BenBailey<span className='text-blue-600'>-</span></h1>
+            <ul className='text-white list-disc pt-3'>
+                <li>
+                <p className='text-white pt-1 text-xl'>Mobile Responsive</p>
+                </li>
+            </ul>
+            <p className='text-white pt-4 pb-3 text-xl pr-3'>The very portfolio you are currently exploring, a fun little project to display my work to you in a sleek and stylish way. Created in ReactJS with Tailwind CSS Framework.</p>
+            <a className='text-blue-600 text-2xl hover:text-blue-500 transform transition duration-500' href="https://github.com/BaileyBen/CRUD-Todo-Application#readme" rel="noreferrer">
+                View Code Here
+            </a>
+            </div>
             </div>
         </div>
 
