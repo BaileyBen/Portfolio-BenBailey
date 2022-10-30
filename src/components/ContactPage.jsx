@@ -15,7 +15,9 @@ const ContactPage = () => {
         <div className='pl-20 ml-20 text-white pt-20 hover:text-blue-600 cursor-pointer transform transition duration-500 hover:scale-110'>
             <div className='flex'>
             <BsLinkedin size={60} />
+            <a className='' href="https://www.linkedin.com/in/ben-bailey-39ba5b251/" rel="noreferrer">
             <h1 className='pt-2 pl-3 text-3xl'>Linked In</h1>
+                </a>
             </div>
         </div>
         <div className='pl-20 ml-20 text-white pt-20 hover:text-blue-600'>
